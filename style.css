@@ -1,0 +1,97 @@
+*{
+    background-color: pink;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: rgb(80, 6, 49);
+    font-size: xx-large
+}
+div{
+    box-sizing: content-box;
+}
+p{  
+    background-color: rgb(185, 13, 113);
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 1px 3px purple;
+    color: #ffff;
+    font-size: large; font-style: italic;
+    
+}
+
+h2{
+    text-align: center;font-weight: 300;
+}
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: blue;
+    flex-direction: row;
+
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+div{
+    background-color: blueviolet
+}
+.apple{
+    background-color: white;
+    color: blue;
+    font-family: sans-serif;
+    font-size:xx-large;
+}
+.girl{
+    background-color: green;
+    color: rgb(1, 24, 1);
+    font-family: sans-serif;
+    font-size:xx-large;
+}
+
+.boy{
+    background-color: yellow;
+    color: rgb(15, 1, 1);
+    font-family: sans-serif;
+    font-size:xx-large;
+}
+.orange{
+    background-color: purple;
+    color: #ffff;
+    font-family: sans-serif;
+    font-size:xx-large;
+}
+.juice{
+    background-color: rgb(207, 8, 8);
+    color: rgb(226, 222, 222)
+    font-family: sans-serif;
+    font-size:xx-large;
+}
+    
+
+.flex-container-2{
+    display: flex;
+    flex-wrap:wrap;
+    align-content: space-between;
+    background-color: rgb(185, 13, 113);
+    flex-direction: row-reverse;
+}
+
+.flex-container-2 > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+#body{
+    background-color: orange;
+    color: black;
+    outline: red;
+}
